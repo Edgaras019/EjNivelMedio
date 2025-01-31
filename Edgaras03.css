@@ -1,0 +1,94 @@
+/* Ejercicio 3 EDGARAS */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    border: 10px solid gray;
+}
+
+.cabeza {
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+    font-size: xx-large;
+    padding: 10px;
+}
+
+.cabeza .subin {
+    font-style: italic;
+    color: gray;
+}
+
+main {
+    display: flex;
+}
+
+main h2 {
+    color: gray;
+    font-size: xx-large;
+}
+
+main .left .miguel {
+    width: 500px;
+}
+
+main .right .h2 {
+    color: gray;
+}
+
+.left {
+    position: relative;
+    width: 500px;
+    font-size: x-large;
+    padding: 10px;
+    color: grey;
+}
+
+.right {
+    flex-grow: 1;
+    background-color: orange;
+    padding: 20px;
+    margin-left: 20px;
+    width: 100%;
+}
+
+.ingen {
+    font-size: x-large;
+    color: gray;
+}
+
+footer {
+    padding: 10px;
+    background-color: black;
+    color: gray;
+    padding: auto;
+    margin: auto;
+}
+
+footer div p {
+    text-align: center;
+    font-size: x-large;
+}
+
+@media (min-width: 600px) {
+    header {
+        font-size: 2em;
+    }
+
+    header p {
+        padding: 25px;
+    }
+}
+
+
+@media (max-width:600px) and (min-width: 400px) {
+    header {
+        font-size: 1.5em;
+    }
+
+    header p {
+        padding: 15px;
+    }
+}

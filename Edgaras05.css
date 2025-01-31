@@ -1,0 +1,67 @@
+/* Ejercicio 5 EDGARAS */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+}
+
+.cabeza {
+    font-size: 50px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.prim {
+    background-color: grey;
+    color: white;
+    margin: 19px;
+    padding-left: 10px;
+}
+
+.segu {
+    background-color: grey;
+    color: white;
+    margin: 19px;
+    padding-left: 10px;
+}
+
+.segun {
+    display: flex;
+    position: relative;
+    width: 100%;
+    left: 30px;
+}
+
+.ter {
+    display: flex;
+    position: relative;
+    width: 100%;
+    left: 10px;
+}
+
+.praa {
+    width: 800px;
+    padding-top: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.praa2 {
+    width: 800px;
+    padding-top: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.rojo {
+    color: red;
+    font-style: italic;
+}
+
+.blanco {
+    background-color: gray;
+    color: white;
+}

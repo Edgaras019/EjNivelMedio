@@ -1,0 +1,121 @@
+/* Ejercicio 10 EDGARAS */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(0, 83, 179);
+}
+
+header h1 {
+    text-align: center;
+    color: rgb(0, 255, 149);
+}
+
+header p {
+    font-size: 25px;
+    padding-left: 10px;
+}
+
+.enlaces {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.img1 {
+    width: 200px;
+    border: 10px solid yellow;
+}
+
+.imagen {
+    border: 10px solid orangered;
+    margin: 20px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.prim {
+    width: 80%;
+    margin: auto;
+    border: 10px solid orangered;
+    background-color: white;
+}
+
+.informacion{
+    display: flex;
+}
+
+.segundo {
+    width: 80%;
+    margin: auto;
+    border: 10px solid yellow;
+    background-color: white;
+}
+
+.informacion2 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.img2 {
+    width: 200px;
+    border: 10px solid orangered;
+}
+
+.imagen2 {
+    border: 10px solid yellow;
+    margin: 20px;
+}
+
+.texto1 {
+    padding-left: 10px;
+}
+
+.ter {
+    width: 80%;
+    margin: auto;
+    border: 10px solid orangered;
+    background-color: white;
+}
+
+.informacion3 {
+    display: flex;
+}
+
+.img3 {
+    width: 200px;
+    border: 10px solid yellow;
+}
+
+.imagen3 {
+    border: 10px solid orangered;
+    margin: 20px;
+}
+
+.cuar {
+    width: 80%;
+    margin: auto;
+    border: 10px solid yellow;
+    background-color: white;
+}
+
+.informacion4 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.img4 {
+    width: 200px;
+    border: 10px solid orangered;
+}
+
+.imagen4 {
+    border: 10px solid yellow;
+    margin: 20px;
+}
+

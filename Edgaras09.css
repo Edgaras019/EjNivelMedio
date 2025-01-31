@@ -1,0 +1,87 @@
+/* Ejercicio 9 EDGARAS */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(135, 175, 135);
+}
+
+body header h1 {
+    padding-right: 20px;
+    color: rgb(0, 0, 85);
+    text-align: end;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 40px;
+}
+
+body header p {
+    font-size: 20px;
+}
+
+.prim {
+    display: flex;
+    width: 100%;
+}
+
+.prim h3 {
+    background-color: green;
+    color: white;
+}
+
+.prim p {
+    padding-left: 10px;
+}
+
+.prim p span {
+    font-style: oblique;
+    font-size: 20px;
+}
+
+.prim img {
+    width: 200px;
+    margin-top: 18px;
+}
+
+.segun h3 {
+    background-color: green;
+    color: white;
+}
+
+.segun p span {
+    font-style: oblique;
+    font-size: 20px;
+}
+
+.segun img {
+    position: relative;
+    width: 200px;
+    left: 41%;
+}
+
+.ter {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.ter h3 {
+    background-color: green;
+    color: white;
+}
+
+.ter img {
+    width: 300px;
+    margin-top: 19px;
+}
+
+.ter p span {
+    font-style: oblique;
+    font-size: 20px;
+}
+
+footer {
+    font-style: italic;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

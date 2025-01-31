@@ -1,0 +1,36 @@
+/* Ejercicio 1 EDGARAS */
+
+*{
+    box-sizing: border-box;
+    background-color: rgb(248, 236, 216);
+}
+
+.encabezado {
+    color: blue;
+}
+
+.barra{
+    position: relative;
+    width: 600px;
+    right: 650px;
+}
+
+.lista {
+    color: darkslateblue;
+}
+
+.mayus {
+    list-style-type: upper-alpha;
+}
+
+.minus {
+    list-style-type: lower-alpha;
+}
+
+.circulos {
+    list-style-type: circle;
+}
+
+.cuadrados {
+    list-style-type: square;
+}

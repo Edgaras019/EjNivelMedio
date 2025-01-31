@@ -1,0 +1,93 @@
+/* Ejercicio 7 EDGARAS */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: grey
+}
+
+.cabeza {
+    font-size: xx-large;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contenido {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 15px;
+    margin: 15px;
+}
+
+.contenido2 {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 15px;
+    margin: 15px;
+}
+
+.prim {
+    background-color: orange;
+    border: 2px solid rgb(41, 41, 41);
+    position: relative;
+    left: 150px;
+    text-align: center;
+    font-size: x-large;
+    padding: 10px;
+    width: 1600px;
+}
+
+.segun {
+    width: 800px;
+    background-color: yellow;
+    border: 2px solid rgb(143, 143, 1);
+    padding-bottom: 50px;
+    font-size: 20px;
+    align-items: flex-start;
+    text-align: start;
+}
+
+.ter {
+    width: 800px;
+    background-color: rgb(0, 162, 255);
+    border: 2px solid rgb(1, 22, 143);
+    padding-bottom: 50px;
+    font-size: 20px;
+    align-items: flex-start;
+    text-align: end;
+}
+
+.cuar {
+    width: 800px;
+    background-color: pink;
+    border: 2px solid rgb(242, 142, 255);
+    padding-bottom: 50px;
+    font-size: 20px;
+    align-items: flex-start;
+    text-align: start;
+}
+
+.cinco {
+    width: 800px;
+    background-color: rgb(253, 0, 42);
+    border: 2px solid rgb(253, 66, 66);
+    padding-bottom: 50px;
+    font-size: 20px;
+    align-items: flex-start;
+    text-align: end;  
+}
+
+.centro {
+    width: 800px;
+    padding: 40px;
+    position: fixed;
+    left: 28%;
+    top: 32%;
+    background-color: rgb(0, 255, 55);
+    border: 2px solid green;
+    font-size: 20px;
+}

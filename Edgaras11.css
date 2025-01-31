@@ -1,0 +1,48 @@
+/* Ejercicio 11 EDGARAS */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(184, 183, 183);
+}
+
+header {
+    color: white;
+    background-color: rgb(71, 71, 71);
+}
+
+main {
+    display: flex;
+}
+
+.informacion {
+    flex-direction: column;
+    margin: auto;
+}
+
+.titulo {
+    color: white;
+    background-color: rgb(71, 71, 71);
+    width: 25%;
+    text-align: center;
+    align-items: center;
+}
+
+.titulo2 {
+    border: 2px solid green;
+    background-color: green;
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.contenido {
+    width: 30%;
+}
+
+.cont {
+    background-color: white;
+    padding: 10px;
+}
